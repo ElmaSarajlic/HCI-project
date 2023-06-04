@@ -1,0 +1,171 @@
+body {
+    background-color: #9EC1D7;
+  }
+  
+  .frame-1-variant2 {
+    align-items: center;
+    background-color: #1B1C27;
+    display: flex;
+    height: 130px;
+    left: 0;
+    padding: 0 5%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .home,
+  .stays,
+  .sign-in,
+  .log-in {
+    align-items: flex-end;
+    display: flex;
+    height: 34px;
+    margin-top: 41px;
+    min-width: 81px;
+    padding: 1px 11px;
+    color: #9EC1D7;
+  }
+  
+  .valign-text-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .place,
+  .sign-in-1,
+  .stays-1,
+  .log-in-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .frame-2-1 {
+    height: 139px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 290px;
+  }
+  
+  .desktop-1 .frame-2-4 {
+    background-image: url("TripStayz__6_-removebg-preview.png");
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    align-self: center;
+  }
+  
+  label {
+    font-size: 28px;
+    color: #1B1C27;
+    padding-right: 20px;
+  }
+  
+  input[type="text"] {
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    color: #1B1C27;
+  }
+  
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    vertical-align: center;
+  }
+  
+ 
+  
+  .password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    align-self: center;
+  }
+  
+  .password-input {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+  }
+  
+  .toggle-password {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FF8126;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .text {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
+  .login {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
+  .disclaimer {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #18465A;
+    text-align: center;
+  }
+  
+  
+footer {
+    background-color: #1B1C27;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: #9EC1D7;
+    font-size: 18px;
+    margin-top: 30px;
+  }

@@ -1,0 +1,262 @@
+
+  body {
+    background-color: #9EC1D7;
+  }
+
+  .frame-1-variant2 {
+    align-items: center;
+    background-color: #1B1C27;
+    display: flex;
+    height: 130px;
+    left: 0;
+    padding: 0 41px;
+    position: absolute;
+    top: 0;
+    max-width: fit-content;
+  }
+
+  .home {
+    align-items: flex-end;
+    display: flex;
+    height: 34px;
+    margin-top: 41px;
+    min-width: 81px;
+    padding: 1px 11px;
+    color: #9EC1D7;
+  }
+
+  .valign-text-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .place {
+    cursor: pointer;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    min-width: 58px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .sign-in {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    margin-left: 35px;
+    margin-top: 51px;
+    position: relative;
+    width: fit-content;
+    color: #9EC1D7;
+  }
+
+  .sign-in-1 {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .stays {
+    align-items: flex-end;
+    display: flex;
+    height: 34px;
+    margin-left: 35px;
+    margin-top: 41px;
+    min-width: 78px;
+    padding: 1px 11px;
+    color: #9EC1D7;
+  }
+
+  .stays-1 {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    min-width: 56px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .frame-2-1 {
+    height: 139px;
+    margin-left: 340px;
+    width: 290px;
+  }
+
+  .desktop-1 .frame-2-4 {
+    background-image: url("TripStayz__6_-removebg-preview.png");
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  .log-in {
+    align-items: flex-end;
+    display: flex;
+    height: 34px;
+    margin-left: 336px;
+    margin-top: 41px;
+    min-width: 83px;
+    padding: 1px 12px;
+    color: #9EC1D7;
+  }
+
+  .log-in-1 {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    min-width: 59px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  label {
+    font-size: 28px;
+    color: #1B1C27;
+    padding-right: 20px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    color: #1B1C27;
+  }
+
+  .password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .password-input {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+  }
+
+  .toggle-password {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 340px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FF8126;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .text {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+
+  .signup {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+
+  .disclaimer {
+    margin-top: 50px;
+    font-size: 16px;
+    color: #18465A;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .frame-1-variant2 {
+      padding: 0 20px;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    label {
+      font-size: 24px;
+      padding-right: 10px;
+    }
+
+    input[type="text"],
+    .password-input {
+      max-width: 400px;
+      height: 50px;
+      font-size: 14px;
+    }
+
+    .password-container {
+      margin-top: 20px;
+    }
+
+    .button {
+      max-width: 300px;
+      height: 50px;
+      font-size: 16px;
+      margin-top: 30px;
+    }
+
+    .signup {
+      display: flex;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bold;
+     color: black;
+     text-align: center;
+      
+    }
+
+    .disclaimer {
+      font-size: 14px;
+    }
+  }
+
+  footer {
+    background-color: #1B1C27;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: #9EC1D7;
+    font-size: 18px;
+    margin-top: 30px;
+  }
